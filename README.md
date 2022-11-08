@@ -1,26 +1,16 @@
-# Selection-InsertionSort
-Bu repo [Patika](https://www.patika.dev) Veri Yapıları eğitiminde bulunan Selection Sort projesidir. İçerisinde bir adet README dosyası barındırıyor.
+# MergeSort
+Bu repo [Patika](https://www.patika.dev) Veri Yapıları eğitiminde bulunan Merge Sort projesidir. İçerisinde bir adet README dosyası barındırıyor.
 
-### Insertion Sort example
-[22,27,16,2,18,6]->[22,16,27,2,18,6]->[16,22,27,2,18,6]->[2,16,22,27,18,6]->[[2,6,16,18,22,27]
+### Merge Sort example
+[16,21,11,8,12,22]->[16,21,11],[8,12,22]-->[16],[21,11],[8],[12,22]-->[16],[21],[11],[8],[12],[22]-->[16],[11,21],[8],[12,22]-->[11,16,21],[8,12,22]-->[8,11,12,16,21,22]
 
-Best Case   :   O(n) 
-Average Case:   O(n^2) W
-Worst Case  :   O(n^2)
-
-### Selection Sort first 4 step
-[7,3,5,8,2,9,4,15,6]->[2,3,5,8,7,9,4,15,6]->[2,3,4,8,7,9,5,15,6]->[2,3,4,5,7,9,8,15,6]
-
-Best case   :   O(n^2) 
-Average case:   O(n^2)
-Worst case  :   O(n^2)
-
+Big O gösterimi: O(nlogn)
 
 ## Installation
 Öncelikle projeyi clonelayın.
 
 ```
-git clone https://github.com/metehan37/SelectionSort.git
+git clone https://github.com/metehan37/MergeSort.git
 ```
 
 ## Usage
@@ -28,7 +18,7 @@ Projeyi Cloneladıktan sonra Visual Studio Code programında açınız.
 
 Linux için:
 ```
-cd SelectionSort
+cd MergeSort
 code .
 ```
 
@@ -39,4 +29,4 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 [MIT](https://opensource.org/licenses/MIT)
 
 ## Photo
-![Photo](https://github.com/metehan37/SelectionSort/blob/master/Screenshot_1.png)
+![Photo](https://github.com/metehan37/MergeSort/blob/master/Screenshot_1.png)
